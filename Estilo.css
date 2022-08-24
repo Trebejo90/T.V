@@ -1,0 +1,126 @@
+*{
+    margin: 0%px;
+}
+
+body{
+    background-color: rgba(230, 211, 171, 0.877);
+    text-align: flex;
+    color: rgb(255, 255, 255);
+    font-family: 'Nunito', sans-serif;
+}
+
+h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+}
+
+h1 strong{
+    color:#99cc08
+}
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: inherit;
+}
+
+.header li{
+height: inherit;
+}
+
+.aplicar{
+    height: 500px;
+    background: whitesmoke;
+    display: flex;
+    color: black;
+}
+
+.aplicar-detalles{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    text-align: center;
+}
+
+.aplicar-detalles img{
+    height: 90%;
+}
+
+.header{
+    background: cadetblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.logo img{
+width: 100px;
+}
+
+.menu{
+    height: inherit;
+}
+
+.principal{
+   background: rgb(238, 122, 122);
+   background-image: url(https://ecoinventos.com/wp-content/uploads/2016/04/Platos-con-hojas.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   text-align: center;
+   padding: 100px;
+}
+
+.principal-botón{
+    width: 250px;
+    height: 40px;
+    background-color: #99cc08;
+    border-radius: 24px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.principal img{
+    width: 300px;
+}
+
+.segunda{
+background: rgba(219, 240, 195, 0.815);
+color: rgba(28, 214, 59, 0.685);
+text-align: center;
+padding: 100px 200px;
+font-size: 20px;
+}
+
+.segunda h2{
+    color: aqua;
+    margin-bottom: 10px;
+}
+
+.segunda p{
+margin-bottom: 20px;
+}
+
+.tercera{
+    background: rgb(202, 232, 240);
+    color: rgba(0, 215, 230, 0.781);
+    text-align: left;
+     padding:25px 100px 200px 50px
+}
