@@ -51,6 +51,11 @@ height: inherit;
 .aplicar-detalles img{
     height: 90%;
 }
+.desarollo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
 .header{
     background: cadetblue;
@@ -110,12 +115,13 @@ font-size: 20px;
 }
 
 .segunda h2{
-    color: aqua;
+    color: rgb(28, 105, 5);
     margin-bottom: 10px;
 }
 
 .segunda p{
 margin-bottom: 20px;
+color: #354606;
 }
 
 .tercera{
